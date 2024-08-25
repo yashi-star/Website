@@ -1,0 +1,111 @@
+.body{
+    background-color:#01050e ;
+    transition: 0.5s all;
+}
+
+.body #header.scrolled{
+    background-color: #0b073a78;
+}
+
+.body .logo a h1{
+    color: antiquewhite;
+}
+
+.body .bio .h1{
+    color: aqua;
+}
+
+.body .emailsub{
+    background: #b3069c68;
+}
+
+.body .emailsub form input{
+    color: aliceblue;
+}
+
+.body .hottopicsec{
+    background-color: bisque;
+}
+
+.body .hottopics h3{
+    color: bisque;
+}
+
+.body .edcard{
+    color: aqua;
+}
+
+.body .edcarddetl a h2{
+    color: bisque;
+}
+
+.body .authorname h4{
+    color: beige;
+}
+
+.body .authorname span {
+    color: azure;
+}
+
+.body .readmore::before{
+    background-color: aliceblue;
+}
+.body .tagsec a{
+    border: 1px solid;
+    background-color: #8ca4d5;
+    background-color: rgb(187, 218, 218);
+}
+
+.body .tagsec a:hover{
+    border: 1px solid rgba(0,255,255,0.68);
+    box-shadow: 0 0 10px rgba(0,255,255,0.38);
+}
+
+.body .postlabel a{
+    background-color:#8caed5 ;
+    color: azure;
+}
+
+.body .postlabel a:hover{
+    background-color:#5e2ab1 ;
+    color: #8caed5;
+   
+}
+
+.body .postdetails h2{
+    color: rgb(170, 17, 96);
+}
+
+.body .popularposts{
+    background-color:#ba8cd5 ;
+    border: 1px solid #068bb3;
+}
+
+.body .popuppostde h4{
+    color: rgb(240, 255, 249);
+}
+
+.body .popuppostde{
+    border-bottom: 1px solid #c6accfdf;
+}
+
+.body .comment p{
+    color: #949494;
+}
+
+.body footer{
+    border: 1px solid #068bb3;
+    background-color: #ba8cd5;
+}
+
+.body .logoof a h1,
+.body .categoriesfooter h3,
+.body .newsletterfooter h3,
+.body .newsletterfooter form input,
+.body .logofooter h4{
+    color: #ba8cd5;
+}
+.body .footersec p,
+.body .footersec li a{
+    color: #ba8cd56d;
+}
