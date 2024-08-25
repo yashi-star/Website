@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+              <img src="login.png" alt="" />
+        <div class="form-box">
+            <h1 >Fillme</h1>
+            <form name="myForm" method="post">
+              <div class="input-group">
+                <div class="input-feild" id="namefeild">
+                  <input type="text"  placeholder="Name" />
+                </div>
+                  <div class="input-feild">     
+                    <input type="email"  placeholder="Email"/>
+                  </div>
+                  <div class="input-feild">
+                    <input type="password" placeholder="Password" />
+                  </div>
+                      <button type="button" ><a href="https://h4cx2d.csb.app/">submit</a></button>
+              
+                </div>
+                
+                    <div class="button-feild">
+                  <button type="button" id="signupbtn">sign up</button>
+                  <button type="button" id="signinbtn" class="disable">
+                    sign in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+    </div>
+    <script>
+      let signupbtn = document.getElementById("signupbtn");
+      let signinbtn = document.getElementById("signinbtn");
+      let namefeild = document.getElementById("namefeild");
+
+
+      signinbtn.onclick = function () {
+        namefeild.style.maxHeight = "0";
+        signupbtn.classList.add("disable");
+        signinbtn.classList.remove("disable");
+      };
+
+      signupbtn.onclick = function () {
+        namefeild.style.maxHeight = "60px";
+        signupbtn.classList.remove("disable");
+        signinbtn.classList.add("disable");
+      };
+     
+    </script>
+
+  </body>
+</html>
